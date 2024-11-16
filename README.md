@@ -18,6 +18,7 @@
  - I used CR2032 battery cells
  - For orientation of the ISP: 
    - the square pad on the footprint is the RESET pin of the 6-pin ISP
+
 ![Alt text](KiCad/PCB.png "PCB")
 
 ## Command for flashing using avrdude: 
