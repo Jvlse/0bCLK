@@ -10,10 +10,15 @@
 
 
 ## Schematic:
-![Alt text](KiCad/Schematic.png "Title")
+![Alt text](KiCad/Schematic.png "Schematic")
 
 ## PCB:
-![Alt text](KiCad/PCB.png "Title")
+ - I used a mill for the PCB
+ - All components are mounted on the top and soldered on the bottom
+ - I used CR2032 battery cells
+ - For orientation of the ISP: 
+   - the square pad on the footprint is the RESET pin of the 6-pin ISP
+![Alt text](KiCad/PCB.png "PCB")
 
 ## Command for flashing using avrdude: 
 ```avrdude -c [programmer] -p m48A -Uflash:w:Path\To\CLK\Debug\CLK.hex:i```
