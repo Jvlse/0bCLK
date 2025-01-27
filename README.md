@@ -13,7 +13,7 @@
 ![Alt text](KiCad/Schematic.png "Schematic")
 
 ## PCB:
- - I used a mill for the PCB
+ - I used a mill for the 2-layer PCB
  - All components are mounted on the top and soldered on the bottom
  - I used CR2032 battery cells
  - For orientation of the ISP: 
