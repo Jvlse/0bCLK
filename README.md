@@ -21,12 +21,12 @@
 
 ![Alt text](KiCad/PCB.png "PCB")
 
-## Command for flashing using avrdude: 
+## Command for flashing using avrdude in Windows: 
 ```avrdude -c [programmer] -p m48A -Uflash:w:Path\To\CLK\Debug\CLK.hex:i```
 
-Example in Windows using USBasp, Path is "E:\Atmel_Studio\7.0\CLK\Debug\Uhr.hex":
+Example using USBasp, Path is "C:\Atmel_Studio\7.0\CLK\Debug\CLK.hex":
 
-```avrdude -c usbasp -p m48A -Uflash:w:E:\Atmel_Studio\7.0\CLK\Debug\CLK.hex:i```
+```avrdude -c usbasp -p m48A -Uflash:w:C:\Atmel_Studio\7.0\CLK\Debug\CLK.hex:i```
 
 ## Power saving:
  - If CPU is doing nothing (waiting for Timer interrupt) 
