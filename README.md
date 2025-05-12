@@ -24,7 +24,7 @@
 ## Command for flashing using avrdude in Windows: 
 ```avrdude -c [programmer] -p m48A -Uflash:w:Path\To\CLK\Debug\CLK.hex:i```
 
-Example using USBasp, Path is "C:\Atmel_Studio\7.0\CLK\Debug\CLK.hex":
+Example using USBasp, path is "C:\Atmel_Studio\7.0\CLK\Debug\CLK.hex":
 
 ```avrdude -c usbasp -p m48A -Uflash:w:C:\Atmel_Studio\7.0\CLK\Debug\CLK.hex:i```
 
