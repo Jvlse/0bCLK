@@ -45,8 +45,8 @@ Example in Windows using USBasp, Path is "E:\Atmel_Studio\7.0\CLK\Debug\Uhr.hex"
    - if left off a brown out might lead to malfunction
 
 ## Power usage:
- - Default 6,5mA -> 35h Laufzeit
- - PWR_SAVE 1,2µA -> 191666h ~ 20 Jahre Laufzeit
+ - Default 6,5mA -> 35h runtime
+ - PWR_SAVE 1,2µA -> 191666h ~ 20 years runtime
 
 ## CLK inaccuracy:
  - Reasons:
