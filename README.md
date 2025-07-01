@@ -1,6 +1,8 @@
 # 0bCLK
 11 LED Binary Clock using an ATmega48A, [Datasheet](ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf)
 
+Code is [here](https://github.com/Jvlse/0bCLK/blob/main/CLK/main.c)
+
 ## FEATURES:
  - Binary Time on 11 LED's with PWM brightnesscontrol
  - Control over buttons
